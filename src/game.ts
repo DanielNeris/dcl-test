@@ -32,7 +32,7 @@ import { renderStoreName } from "./utils/renderBanner copy";
 import { renderNFTs } from "./utils/renderNFTs";
 import { renderItems, renderShelf, renderStore } from "./utils/store/index";
 
-renderStore({ isPlayingMusic: false });
+renderStore({ isPlayingMusic: true });
 renderItems(storeItemsArray);
 renderShelf(storeShelvesArray);
 
