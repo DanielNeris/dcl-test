@@ -26,7 +26,9 @@ button.addComponent(
 engine.addEntity(button);
 
 import storeItemsArray from "./config/storeItems";
+import storeNFTsArray from "./config/storeNFTs";
 import storeShelvesArray from "./config/storeShelves";
+
 import { renderBanner } from "./utils/renderBanner";
 import { renderStoreName } from "./utils/renderBanner copy";
 import { renderNFTs } from "./utils/renderNFTs";
@@ -38,4 +40,14 @@ renderShelf(storeShelvesArray);
 
 renderBanner();
 renderStoreName("SkyStore");
-renderNFTs();
+renderNFTs(storeNFTsArray);
+
+// executeTask(async () => {
+//   try {
+//     const response = await fetch("https://skydan-api.herokuapp.com/tokens");
+//     const json = await response.json();
+//     log(json);
+//   } catch {
+//     log("failed to reach URL");
+//   }
+// });
