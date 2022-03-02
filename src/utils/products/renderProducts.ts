@@ -1,4 +1,5 @@
 import * as ui from "@dcl/ui-scene-utils";
+import { InfoPanel } from "../infoPanel";
 
 import { fetchProducts } from "./fetchProducts";
 
@@ -22,36 +23,39 @@ export async function renderProducts() {
 
     entity.addComponent(transform);
 
-    const image = new ui.CenterImage(
-      product.images.edges[0].node.url,
-      -1,
-      true
-    );
-    image.hide();
+    // const image = new ui.CenterImage(
+    //   product.images.edges[0].node.url,
+    //   -1,
+    //   true
+    // );
+    // image.hide();
 
-    log(image);
-
-    const prompt = new ui.OptionPrompt(
-      product.title,
-      "",
-      () => {
-        prompt.hide();
-        image.show();
-      },
-      () => {
-        prompt.hide();
-        image.hide();
-      },
-      "",
-      "",
-      true
-    );
-    prompt.hide();
+    // const prompt = new ui.OptionPrompt(
+    //   product.title,
+    //   "",
+    //   () => {
+    //     prompt.hide();
+    //     image.show();
+    //   },
+    //   () => {
+    //     prompt.hide();
+    //     image.hide();
+    //   },
+    //   "",
+    //   "",
+    //   true
+    // );
+    // prompt.hide();
 
     entity.addComponent(
       new OnPointerDown(() => {
-        openExternalURL(product.onlineStoreUrl);
+        // openExternalURL(product.onlineStoreUrl);
         // prompt.show();
+        const canvas = new UICanvas();
+
+        const infoPanel = new InfoPanel(canvas);
+
+        infoPanel.openInfoPanel(product);
       })
     );
 

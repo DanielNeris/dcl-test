@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@dcl/amd@6.9.0":
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/@dcl/amd/-/amd-6.9.0.tgz#14841308fa2db5ba0d04f1eae9c2ef4e30b0354a"
-  integrity sha512-fefeSDZR77obnN4zYNanElP9JMjd3YfR9xHnY99bqiS27yEMO0nHdf2w0mUii3x5wrnNnY5G/EzKBuYAgyNlsg==
+"@dcl/amd@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@dcl/amd/-/amd-6.9.1.tgz#b1c8155f228f4484de17cbee46bfa92c26c77b08"
+  integrity sha512-RKIx2BvuHzG7lJqRjVf1j1wl8ZWKUliNXkvg2rS1IYN+DjoKIA5rTz7B1qh/K/PtlGuTc2Kd8Ox/3yMJeAqsHg==
 
-"@dcl/build-ecs@6.9.0":
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/@dcl/build-ecs/-/build-ecs-6.9.0.tgz#505b7b80ec5b2a299ac255a88cac449f1e899bf9"
-  integrity sha512-pc7uEgOtjD4V02qZ7McZBnCTtNfujsZYXycuR2d21jraUyIhBJfE36zKSAjT+ZZjBN1QcVYChnxEiiEUmcTwSg==
+"@dcl/build-ecs@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@dcl/build-ecs/-/build-ecs-6.9.1.tgz#960c2f4bfdf5500af4dfe645c6112fc1e2bbaf41"
+  integrity sha512-j2vYkRsQ7/mijwCAd14Cl5CxqXytCRUzhvU3ylUrcsTAmNDlm8x3A+Wpdw6JAbANI0xSBD9aFt/Q+PuLl2T5iA==
   dependencies:
     terser "^5.7.2"
     typescript "^4.4.2"
@@ -20,20 +20,20 @@
   resolved "https://registry.yarnpkg.com/@dcl/ecs-scene-utils/-/ecs-scene-utils-1.7.5.tgz#b62d7f3bedc90e0eae1ff1819ead246e7b65db83"
   integrity sha512-kheUPhHTXHUdJBKjG3OHHyc9ABAMXyY63uV6E69sFeBIGgYCL+lK9FWMQJe5AOa+wHM781xdmWq8tHh4jlJbaw==
 
-"@dcl/kernel@^1.0.0-1855215887.commit-125a1cf":
-  version "1.0.0-1865803679.commit-4e22e2d"
-  resolved "https://registry.yarnpkg.com/@dcl/kernel/-/kernel-1.0.0-1865803679.commit-4e22e2d.tgz#a7023ea50f48c495b2ed0623be1fe009a6b1c216"
-  integrity sha512-28rNCSeyDxia8tATz156+gJ+WTxMRuw/0YBChYZ1x3hM8YgXyw3gGLXmEh2H2/G3aRMpCNCdVeGVlDYhv3Bz0g==
+"@dcl/kernel@^1.0.0-1876297332.commit-9804de6":
+  version "1.0.0-1876297332.commit-9804de6"
+  resolved "https://registry.yarnpkg.com/@dcl/kernel/-/kernel-1.0.0-1876297332.commit-9804de6.tgz#442a562baa93b6f55b4aa67954c8388e4ba63a6c"
+  integrity sha512-kRF45FIvpHt9cFehBXp6Ft9McmR9N4eeUb9pDLxKt4AfU4Od2TD7x6VheUPGXQnVvUdBgL5ruh0j6z/teHMK9A==
 
 "@dcl/posix@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@dcl/posix/-/posix-1.0.4.tgz#35c0560e6ce408ee429f0ab622f7fdc97d21656b"
   integrity sha512-Z0zpNr2HAxn2cLWUadWGlzaG48Z+N3hg2bI20UH+OT8NJtvCJnAwVBshAG83iAn4BTC+CsUsk4A394jrlv2ZIQ==
 
-"@dcl/schemas@3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@dcl/schemas/-/schemas-3.7.0.tgz#0c2add1b7c406d64a0f5145713a48721f61a53cb"
-  integrity sha512-uXFWmSIouSG5qZnJ+ngOyjS047VoPIfgpZ7Xi+UX485ZMw69+cZOkV6bYTOznr9v26RAddw3YaZ8UjOEp2bQDg==
+"@dcl/schemas@^3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@dcl/schemas/-/schemas-3.8.0.tgz#aa52d3565308997cfa17c4af5f1314db0f4c6f53"
+  integrity sha512-oUq4JDzJmcLTmhFccby6UrAfDXJywOCWI4w3UenuQDE6TxfoR6c0cthGo/omFQkGRUkkKg8MM7Q3Q5ExxdCLRA==
   dependencies:
     ajv "^7.1.0"
 
@@ -42,10 +42,10 @@
   resolved "https://registry.yarnpkg.com/@dcl/ui-scene-utils/-/ui-scene-utils-1.8.1.tgz#a3ccb4c9588365f148087368025c751a4ae8a249"
   integrity sha512-r/aVxEmtqEb9DKQroA0ehOm5FCxQTv7Y2bxyIZmQHU96h++84yOoi8qklD9iOeyFbOx21U+8roalGmH1Egb2Eg==
 
-"@dcl/unity-renderer@^1.0.27760-20220216125236.commit-7d22053":
-  version "1.0.27760-20220216125236.commit-7d22053"
-  resolved "https://registry.yarnpkg.com/@dcl/unity-renderer/-/unity-renderer-1.0.27760-20220216125236.commit-7d22053.tgz#5089a4f735ba48df7e001cdd7bb192ca1bb27e46"
-  integrity sha512-uQyB+6MXiZrDpfXTsgQe5azzbTMmWZXhsLYXJL1pdyPN0iXtuWESQ3DmlP9Fjo2MU3aAmVBV9W8xl+O+25+Znw==
+"@dcl/unity-renderer@^1.0.28231-20220218195314.commit-01ad746":
+  version "1.0.28231-20220218195314.commit-01ad746"
+  resolved "https://registry.yarnpkg.com/@dcl/unity-renderer/-/unity-renderer-1.0.28231-20220218195314.commit-01ad746.tgz#c35a17c41db28c9ce3efee99dbdd6b72fade2d8a"
+  integrity sha512-S8gdScpxy8HOY2nWblUNwa9nMT4BQL9sbh4Zdo6gt+/OL+SarV9/bS4lXPcgDUlGH9+yiJIPoSdhYlvwfF9lzQ==
 
 "@types/http-proxy@^1.17.8":
   version "1.17.8"
@@ -111,19 +111,19 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-decentraland-ecs@latest:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/decentraland-ecs/-/decentraland-ecs-6.9.0.tgz#555141b635cb88704782c26eddc2bd482e8328ea"
-  integrity sha512-DqdLUdJoNEjV5S0OJ++oNwG0QHhn8T9pbM2qX3vBj8HTlplV2omrRSp1AhDFEZsadGjxFchDj/F3wVYb0Lc4oQ==
+decentraland-ecs@^6.9.1:
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/decentraland-ecs/-/decentraland-ecs-6.9.1.tgz#605b486e96aa6960f9e264831d1def527d8b0522"
+  integrity sha512-+Fm1GV21E2woSDA8jWg/dudPds1WUdxRahEk/p/odHmA0GrsM9QySuheMLFlYXoAegPLX5r1mNlJNfndb8ATNw==
   dependencies:
-    "@dcl/amd" "6.9.0"
-    "@dcl/build-ecs" "6.9.0"
-    "@dcl/kernel" "^1.0.0-1855215887.commit-125a1cf"
+    "@dcl/amd" "6.9.1"
+    "@dcl/build-ecs" "6.9.1"
+    "@dcl/kernel" "^1.0.0-1876297332.commit-9804de6"
     "@dcl/posix" "^1.0.4"
-    "@dcl/schemas" "3.7.0"
-    "@dcl/unity-renderer" "^1.0.27760-20220216125236.commit-7d22053"
+    "@dcl/schemas" "^3.8.0"
+    "@dcl/unity-renderer" "^1.0.28231-20220218195314.commit-01ad746"
     glob "^7.1.7"
-    http-proxy-middleware "^2.0.1"
+    http-proxy-middleware "^2.0.3"
     ignore "^5.1.8"
 
 eth-connect@^6.0.2:
@@ -170,7 +170,7 @@ glob@^7.1.7:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-http-proxy-middleware@^2.0.1:
+http-proxy-middleware@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-2.0.3.tgz#5df04f69a89f530c2284cd71eeaa51ba52243289"
   integrity sha512-1bloEwnrHMnCoO/Gcwbz7eSVvW50KPES01PecpagI+YLNLci4AcuKJrujW4Mc3sBLpFxMSlsLNHS5Nl/lvrTPA==
