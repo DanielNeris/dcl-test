@@ -48,11 +48,13 @@ export class InfoPanel {
     closeButton.positionY = 365;
     closeButton.isPointerBlocker = true;
     closeButton.onClick = new OnPointerDown((): void => {
+      log("dasjiodashujiosuioa");
       this.closeInfoPanel();
     });
   }
 
   public openInfoPanel(products: any): void {
+    log(products);
     products.forEach((product: any, i: number) => {
       const nftImage = new UIImage(
         this.container,
@@ -87,6 +89,8 @@ export class InfoPanel {
       nftDirectLink.value = product.onlineStoreUrl;
       nftDirectLink.fontSize = 10;
 
+      nftDirectLink.visible = false;
+
       const openButton = new UIImage(
         this.container,
         new Texture("images/openButton.png")
@@ -102,16 +106,16 @@ export class InfoPanel {
 
       const fixPositionY = i * 280;
 
-      nftTitle.positionY = 350 - fixPositionY;
+      nftTitle.positionY = 400 - fixPositionY;
       // nftTitle.positionX = -200;
 
-      nftImage.positionY = 250 - fixPositionY;
+      nftImage.positionY = 300 - fixPositionY;
       // nftImage.positionX = 100;
 
-      nftDirectLink.positionY = 180 - fixPositionY;
+      nftDirectLink.positionY = 230 - fixPositionY;
       // nftDirectLink.positionX = -80;
 
-      openButton.positionY = 130 - fixPositionY;
+      openButton.positionY = 180 - fixPositionY;
       // openButton.positionX = -200;
     });
 

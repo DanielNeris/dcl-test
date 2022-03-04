@@ -9,7 +9,7 @@ export async function fetchProducts() {
       },
       body: JSON.stringify({
         query:
-          "{products(first: 10){edges{node{id, title, handle, onlineStoreUrl, description, createdAt, images(first: 10){edges{node{id, url}}} }}}}",
+          "{products(first: 3){edges{node{id, title, handle, onlineStoreUrl, description, createdAt, images(first: 10){edges{node{id, url}}} }}}}",
       }),
     }
   );
